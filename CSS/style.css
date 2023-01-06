@@ -12,7 +12,6 @@ body {
 }
 
 header {
-
   width: 100%;
   height: 4.5rem;
   margin: 0 auto;
@@ -108,6 +107,10 @@ p {
 
 .blank-line {
   margin-top: 1rem;
+}
+
+.blank-paragraph {
+  margin-top: 2rem;
 }
 
 .home-area-right {
@@ -219,6 +222,8 @@ h3 {
   font-family: "Quattrocento Sans", sans-serif;
   font-size: 1rem;
   font-weight: 400;
+  text-align: justify;
+  line-height: 1.25rem;
   color: #3D3D3D;
 }
 
@@ -248,14 +253,63 @@ h4 {
 }
 
 .competitor-anaylsis {
-
   width: 100%;
-  height: 500px;
 }
 
 .persona {
   width: 100%;
 }
+
+.user-journey {
+  width: 100%;
+}
+
+.information-architecture {
+  width: 100%;
+}
+
+.social-media-demo {
+  width: 100%;
+}
+
+
+.ridesharing-demo {
+  width: 100%;
+}
+
+
+.demo-link-container {
+  width: 100%;
+  height: 50px;
+
+}
+
+.demo-link {
+  text-decoration: none;
+  font-family: "Quattrocento Sans", sans-serif;
+  font-weight: 700;
+  font-size: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  border: 2px solid #9FA9BC;
+  border-radius: 25px;
+
+  /* border: 2px solid black; */
+  color: #9FA9BC;
+  transition: all 500ms;
+}
+
+.demo-link:hover, .demo-link:focus {
+    color: #fcfcfc;
+    background-color: #9FA9BC;
+}
+
+
+
+
 
 .start-blank {
   margin-top: 15%;
