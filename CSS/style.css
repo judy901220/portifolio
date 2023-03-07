@@ -206,14 +206,14 @@ p {
 
 h1 {
   font-family: "Quattrocento", sans-serif;
-  font-size: 1.5rem;
+  font-size: 1.75rem;
   font-weight: 700;
   color: #9FA9BC;
 }
 
 h2 {
   font-family: "Quattrocento", sans-serif;
-  font-size: 1.25rem;
+  font-size: 1.5rem;
   font-weight: 700;
   color: #3D3D3D;
 }
@@ -223,7 +223,7 @@ h3 {
   font-size: 1rem;
   font-weight: 400;
   text-align: justify;
-  line-height: 1.25rem;
+  line-height: 1.5rem;
   color: #3D3D3D;
 }
 
